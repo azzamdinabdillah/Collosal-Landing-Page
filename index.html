@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collosal Landing Page</title>
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Noto Sans', sans-serif;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body class="bg-[#0B0B22]">
+
+    <section class="relative z-20">
+
+        <!-- nav mobile -->
+        <div class="h-[100vh] bg-[#0B0B22] z-40 top-0 left-0 nav-mobile" style="display: none;">
+            <img src="assets/images/close.png" alt="" class="fixed top-0 right-0 p-7 w-[25%] md:w-[12%] close-btn lg:hidden">
+
+            <div class="flex justify-center flex-col items-center text-white h-[100vh] text-xl gap-5">
+                <a href="#" class="hover:bg-white hover:text-black w-full mx-auto text-center py-5 font-semibold">Service</a>
+                <a href="#" class="hover:bg-white hover:text-black w-full mx-auto text-center py-5 font-semibold">How We Work</a>
+                <a href="#" class="hover:bg-white hover:text-black w-full mx-auto text-center py-5 font-semibold">Projects</a>
+                <a href="#" class="hover:bg-white hover:text-black w-full mx-auto text-center py-5 font-semibold">About</a>
+                <button class="bg-slate-800 py-2 px-8 rounded-md text-white font-semibold hidden lg:block">
+                    Contact
+                </button>
+            </div>
+        </div>
+
+        <nav class="lg:pt-8 pt-3 lg:px-20 px-5 flex justify-between items-center">
+            <div class="flex items-center gap-3 font-bold">
+                <img src="assets/images/icon-brand.png" alt="">
+                <h1 class="text-xl font-bold text-white">Collosal</h1>
+            </div>
+            <div class="lg:flex items-center gap-10 text-sm hidden">
+                <a href="#" class="text-slate-300">Service</a>
+                <a href="#" class="text-slate-300">How We Work </a>
+                <a href="#" class="text-slate-300">Projects</a>
+                <a href="#" class="text-slate-300">About</a>
+            </div>
+            <button class="bg-slate-800 py-2 px-8 rounded-md text-white font-semibold hidden lg:block">
+                Contact
+            </button>
+            <img src="assets/images/menu-bar.png" alt="" class="menu-bar lg:hidden">
+        </nav>
+
+        <div class="mx-auto text-center pt-12 px-7">
+            <img src="assets/images/eclipse-header-left.png" alt="" class="absolute blur-[80px] opacity-10 md:left-20 left-0 top-0 -z-10">
+            <img src="assets/images/eclipse-header-left.png" alt="" class="absolute blur-[80px] opacity-10 md:right-20 right-0 top-0 -z-10 hidden lg:block">
+            <h1 class="text-slate-300 text-md">Client Development Driven</h1>
+            <h1 class="font-bold mx-auto text-white text-2xl my-5 md:w-[50%] lg:w-[40%] lg:text-3xl lg:leading-relaxed">We Design. We Develop. We Ship. In The Same Day.</h1>
+            <p class="text-slate-300 text-md leading-7 mx-auto md:w-[70%] lg:w-[40%]">We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, we do not reduce the quality of our work.</p>
+
+            <div class="flex justify-center gap-3 lg: items-center mt-5 md:mt-7">
+                <button class="bg-button-blue text-white font-semibold px-8 lg:px-14 py-3 rounded-md">Send Quote</button>
+                <button class="bg-slate-800 text-white font-semibold py-3 px-8 lg:px-14 rounded-md">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="px-10 pt-10 lg:px-32 lg:pt-10 z-20">
+        <div class="md:flex justify-between items-start md:gap-5 lg:gap-10">
+            <div class="bg-slate-900 p-10 rounded-md mb-10 md:p-8">
+                <img src="assets/images/icon-figma.png" alt="" class="bg-slate-800 p-5 rounded-md">
+                <h2 class="text-white font-semibold text-xl py-5">Design</h2>
+                <p class="text-slate-300 text-sm leading-7">The project interface will be designed first, our favorite tool is Figma.</p>
+            </div>
+            <div class="bg-slate-900 p-10 rounded-md mb-10 md:p-8">
+                <img src="assets/images/icon-code.png" alt="" class="bg-slate-800 p-5 rounded-md">
+                <h2 class="text-white font-semibold text-xl py-5">Develop</h2>
+                <p class="text-slate-300 text-sm leading-7">Transform design and write business logic here. Choose the technology you want.</p>
+            </div>
+            <div class="bg-slate-900 p-10 rounded-md mb-10 md:p-8">
+                <img src="assets/images/icon-ship.png" alt="" class="bg-slate-800 p-5 rounded-md">
+                <h2 class="text-white font-semibold text-xl py-5">Ship</h2>
+                <p class="text-slate-300 text-sm leading-7">After the work is complete, we will send the project and all its assets to you.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="px-10 mb-5 mt-5 lg:px-32">
+        <div class="grid grid-cols-2 gap-10 border-t-2 border-b-2 py-10 border-slate-800 md:flex justify-around items-center">
+            <img src="assets/images/icon-github.png" alt="" class="md:w-[12%] lg:w-[9%]">
+            <img src="assets/images/icon-forbes.png" alt="" class="md:w-[12%] lg:w-[9%]">
+            <img src="assets/images/icon-google.png" alt="" class="md:w-[12%] lg:w-[9%]">
+            <img src="assets/images/icon-microsoft.png" alt="" class="md:w-[12%] lg:w-[9%]">
+            <img src="assets/images/icon-facebook.png" alt="" class="md:w-[12%] lg:w-[9%]">
+        </div>
+    </section>
+
+    <section class="mt-1 mb-10 px-7 md:px-20 lg:flex justify-between items-center xl:justify-center relative z-10">
+        <img src="assets/images/planned-svg-1.png" alt="" class="absolute lg:bottom-0 top-0 left-0 blur-[70px] opacity-10 -z-10 overflow-hidden">
+        <img src="assets/images/planned-svg-2.png" alt="" class="absolute top-0 lg:left-80 left-0 blur-[70px] opacity-10 -z-10 overflow-hidden">
+        <img src="assets/images/planned-image.png" alt="" class="mx-auto lg:w-[100%] w-[100%] scale-110 md:scale-90">
+        <div class="">
+            <div class="lg:w-[80%]">
+                <p class="text-slate-300 text-start">HOW WE WORK?</p>
+                <h1 class="font-semibold text-start text-white my-3 text-2xl leading-9 lg:text-[27px] lg:leading-10">Everything is well planned, well designed and developed wholeheartedly</h1>
+                <p class="text-slate-300 leading-7 mt-5">Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are shipped.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-1 mb-10 px-7 lg:px-40 md:px-20 lg:flex justify-between items-center xl:justify-around lg:gap-10 flex lg:flex-row flex-col-reverse gap-12 md:gap-0">
+            <div class="lg:w-[40%] md:-translate-y-14">
+                <p class="text-slate-300 text-start">OUR TEAM</p>
+                <h1 class="font-semibold text-start text-white my-3 text-2xl leading-9 lg:text-[27px] lg:leading-10">We're a team of designers, engineers and analysts</h1>
+                <p class="text-slate-300 leading-7 mt-5">Our team consists of many creative people. We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results.</p>
+                <button class="bg-slate-800 text-white font-semibold py-3 px-8 lg:px-14 rounded-sm mt-8">See Our Team</button>
+            </div>
+            <div>
+                <div class="relative mt-10 lg:w-[90%] w-[100%]">
+                    <img src="assets/images/team-svg.png" alt="" class="absolute -top-40 lg:left-48 md:right-0 blur-3xl opacity-10 left-0">
+                    <div class="md:relative">
+                        <img src="assets/images/section-3-right-0.png" alt="" class="mx-auto lg:w-[100%]">
+                        <img src="assets/images/people-section-right-3-0.png" alt="" class="absolute -bottom-7 -left-5 w-[20%]">
+                    </div>
+                    <div class="md:relative -right-36 -top-36 lg:w-[80%] md:mt-0 mt-5">
+                        <img src="assets/images/people-section-right-3.png" alt="" class="absolute -top-7 -right-5 w-[20%] md:right-10 lg:-right-5">
+                        <img src="assets/images/section-3-right.png" alt="" class="mx-auto lg:w-[100%]">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="border-t-2 border-slate-800 lg:mx-60 mx-7 mt-14 lg:pt-32 pt-10 pb-10 relative">
+        <div class="-z-10">
+            <img src="assets/images/rectangle-left.png" alt="" class="absolute -left-52 top-10 -z-10">
+            <img src="assets/images/lingkaran-left.png" alt="" class="absolute left-0 top-20 -z-10">
+            <img src="assets/images/lingkaran-right-1.png" alt="" class="absolute right-0 top-10 -z-10">
+            <img src="assets/images/lingkaran-right-2.png" alt="" class="absolute lg:-right-20 right-0 md:top-60 top-40 -z-10">
+        </div>
+        <p class="text-slate-300 text-center z-20">PROJECTS</p>
+        <h1 class="font-semibold text-center text-white my-3 text-2xl leading-9 lg:text-[27px] lg:leading-10 md:w-[50%] lg:w-[40%] mx-auto z-20">We have completed many amazing projects that you will not believe</h1>
+               
+        <div class="md:flex justify-center gap-5 items-center w-full mt-5">
+            <div>
+                <div class="py-40 md:px-40 lg:px-60 bg-slate-900 mt-6 relative">
+                        <div class="w-[40%] h-5 left-1/2 -translate-x-1/2 absolute bg-slate-800 top-10 rounded-full"></div>
+                        <div class="w-[30%] h-5 left-1/2 -translate-x-1/2 absolute bg-slate-800 top-20 rounded-full"></div>
+                        <div class="w-[60%] md:w-[50%] lg:w-[40%] h-[50%] mx-auto absolute bottom-0 left-1/2 -translate-x-1/2 bg-slate-800 rounded-t-md">
+                        </div>
+                    </div>
+                    <div class="text-center text-white mt-10">
+                        <h1 class="text-lg font-bold">The Mobile App Landing Page</h1>
+                        <h1 class="text-sm my-3 text-slate-300">A landing page for mobile</h1>
+                        <button class="px-8 py-1 bg-transparent border-2 rounded-full border-slate-400 mt-5">Detail</button>
+                    </div>
+            </div>
+            <div>
+                <div class="py-40 md:px-40 lg:px-60 bg-slate-900 mt-10 md:mt-6 relative">
+                        <div class="w-[40%] h-5 left-1/2 -translate-x-1/2 absolute bg-slate-800 top-10 rounded-full"></div>
+                        <div class="w-[30%] h-5 left-1/2 -translate-x-1/2 absolute bg-slate-800 top-20 rounded-full"></div>
+                        <div class="w-[70%] h-[50%] mx-auto absolute bottom-0 left-1/2 -translate-x-1/2 bg-slate-800 rounded-t-md">
+                        </div>
+                    </div>
+                    <div class="text-center text-white mt-10">
+                        <h1 class="text-lg font-bold">The Desktop App Landing Page</h1>
+                        <h1 class="text-sm my-3 text-slate-300">A landing page for desktop</h1>
+                        <button class="px-8 py-1 bg-transparent border-2 rounded-full border-slate-400 mt-5">Detail</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lg:m-10 bg-[#221048] py-10 rounded-md p-6">
+        <p class="text-slate-300 text-center z-20">Get Started</p>
+        <h1 class="font-semibold text-center text-white my-3 text-2xl leading-9 lg:text-[27px] lg:leading-10 md:w-[50%] lg:w-[40%] mx-auto z-20">What do you need? Choose a service that can help you</h1>
+
+        <div class="px-2 md:px-10 mt-10 md:flex flex-wrap justify-center gap-3 items-center lg:gap-10">
+            <div class="bg-[#3F2379] pt-10 pb-5 px-10 rounded-md mb-5">
+                <div class="flex justify-between items-start border-b-2 mx-5 md:gap-10 pb-8 border-slate-800">
+                    <h1 class="font-bold text-md text-white">UI Design</h1>
+                    <div>
+                        <p class="text-slate-300 text-xs">Starting From</p>
+                        <p class="text-2xl mt-1 font-bold text-white">1200$</p>
+                    </div>
+                </div>
+
+                <div class="text-white text-center my-10 flex flex-col gap-4">
+                    <p>10 design pages</p>
+                    <p>Well documented</p>
+                    <p>4 Revisions</p>
+                    <p>$100/additional page</p>
+                </div>
+
+                <div class="w-full px-1 md:px-2">
+                    <button class="bg-white text-blue-500 rounded-sm w-[100%] font-semibold mt-5 py-3">
+                        Detail
+                    </button>
+                </div>
+            </div>
+            <div class="bg-[#3F2379] pt-10 pb-5 px-10 rounded-md mb-5">
+                <div class="flex justify-between items-start border-b-2 mx-5 md:gap-10 pb-8 border-slate-800">
+                    <h1 class="font-bold text-md text-white">Development</h1>
+                    <div>
+                        <p class="text-slate-300 text-xs">Starting From</p>
+                        <p class="text-2xl mt-1 font-bold text-white">5000$</p>
+                    </div>
+                </div>
+
+                <div class="text-white text-center my-10 flex flex-col gap-4">
+                    <p>Web & Mobile</p>
+                    <p>Well documented</p>
+                    <p>8 Revisions</p>
+                    <p>$1000/additional feature</p>
+                </div>
+
+                <div class="w-full px-1 md:px-2">
+                    <button class="bg-white text-blue-500 rounded-sm w-[100%] font-semibold mt-5 py-3">
+                        Detail
+                    </button>
+                </div>
+            </div>
+            <div class="bg-[#792366] pt-10 pb-5 px-10 rounded-md mb-5">
+                <div class="flex justify-between items-start border-b-2 mx-5 md:gap-10 pb-8 border-slate-800">
+                    <h1 class="font-bold text-md text-white">Maintenance</h1>
+                    <div>
+                        <p class="text-slate-300 text-xs">Starting From</p>
+                        <p class="text-2xl mt-1 font-bold text-white">3000$</p>
+                    </div>
+                </div>
+
+                <div class="text-white text-center my-10 flex flex-col gap-4">
+                    <p>Daily Backup</p>
+                    <p>3 Hours Maintenance</p>
+                    <p>Including Fixing</p>
+                    <p>$50/additional hour</p>
+                </div>
+
+                <div class="w-full px-1 md:px-2">
+                    <button class="bg-white text-blue-500 rounded-sm w-[100%] font-semibold mt-5 py-3">
+                        Detail
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="md:px-10 pt-10 pb-20 mb-5">
+        <div class="p-10">
+            <p class="text-slate-300 text-center z-20">Testimonial</p>
+            <h1 class="font-semibold text-center text-white my-3 text-2xl leading-9 lg:text-[27px] lg:leading-10 md:w-[50%] lg:w-[40%] mx-auto z-20">What do our clients say that we never let down?</h1>
+        </div>
+        <div class="md:flex mx-3 justify-center flex-wrap lg:mt-20">
+            <div class="bg-[#161629] rounded-md px-8 md:w-[40%] lg:w-[30%] py-16 m-5">
+                <div class="relative m-auto">
+                    <img src="assets/images/client-1.png" alt="" class="relative mx-auto">
+                    <img src="assets/images/badge.png" alt="" class="absolute bottom-0 right-[33%] lg:right-[35%]">
+                </div>
+                <div>
+                    <h1 class="text-white font-bold text-center mt-5 text-2xl">Courtney Henry</h1>
+                    <p class="text-sm text-slate-200 text-center my-4">Biffco Enterprises Ltd.</p>
+                    <p class="text-slate-300 mt-5 text-center leading-7">"Very easy to use. I made back the purchase price in just 48 hours! It's great. It's is both attractive and highly adaptable."</p>
+                </div>
+            </div>
+            <div class="bg-[#161629] rounded-md px-8 md:w-[40%] lg:w-[30%] py-16 m-5 border-2 border-blue-600 lg:-translate-y-16">
+                <div class="relative m-auto">
+                    <img src="assets/images/client-2.png" alt="" class="relative mx-auto">
+                    <img src="assets/images/badge.png" alt="" class="absolute bottom-0 right-[33%] lg:right-[35%]">
+                </div>
+                <div>
+                    <h1 class="text-white font-bold text-center mt-5 text-2xl">Eshter Howard</h1>
+                    <p class="text-sm text-slate-200 text-center my-4">Abstergo Ltd.</p>
+                    <p class="text-slate-300 mt-5 text-center leading-7">"Your company is truly upstanding and is behind its product 100%. It's the perfect solution for our business. It has really helped our business."</p>
+                </div>
+            </div>
+            <div class="bg-[#161629] rounded-md px-8 md:w-[40%] lg:w-[30%] py-16 m-5">
+                <div class="relative m-auto">
+                    <img src="assets/images/client-3.png" alt="" class="relative mx-auto">
+                    <img src="assets/images/badge.png" alt="" class="absolute bottom-0 right-[33%] lg:right-[35%]">
+                </div>
+                <div>
+                    <h1 class="text-white font-bold text-center mt-5 text-2xl">Ronalds Richard</h1>
+                    <p class="text-sm text-slate-200 text-center my-4">Barone Ltc.</p>
+                    <p class="text-slate-300 mt-5 text-center leading-7">"I am really satisfied with it. I'm good to go. It really saves me time and effort. It's is exactly what our business has been lacking. "</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="border-t-2 border-b-2 border-slate-800 py-10 mx-10 lg:mx-40 mb-20 relative">
+        <img src="assets/images/lingkaran-left.png" alt="" class="absolute -top-20 -right-0">
+        <img src="assets/images/lingkaran-right-1.png" alt="" class="absolute -bottom-24 lg:-left-32 -left-0">
+        <div class="md:flex justify-around items-center text-white">
+            <h1 class="font-bold text-2xl leading-10 md:w-[50%] lg:w-[30%]">We've prepared everything, it's time for you to tell the problem</h1>
+            <div class="flex justify-center gap-3 items-center mt-8">
+                <button class="bg-[#6016FC] py-2 px-8 text-white rounded">Send Quote</button>
+                <button class="bg-slate-800 py-2 px-9 rounded">Ask Us</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-white md:flex items-start justify-around mx-10 mt-28 mb-20 gap-10">
+        <div class="text-slate-400">
+            <div class="flex justify-start items-center gap-3 mb-5">
+                <img src="assets/images/icon-brand.png" class="" alt="">
+                <h1 class="font-bold text-2xl text-white">Collosal</h1>
+            </div>
+            <p class="mb-2">Copyright © 2021</p>
+            <p class="mb-2">Design By Muhammad Naufal Azhar</p>
+            <p class="mb-2">Code By Azam Din Abdillah</p>
+            <!-- <p>Design By Collosal LLC</p> -->
+        </div>
+        <div class="mt-8 md:mt-0 flex flex-col gap-2 text-slate-400">
+            <h1 class="font-semibold text-lg mb-2 text-slate-200">SERVICES</h1>
+            <p>Web Development</p>
+            <p>App Development</p>
+            <p>UI Design</p>
+            <p>Consultation</p>
+            <p>Maintenance</p>
+        </div>
+        <div class="mt-8 md:mt-0 flex flex-col gap-2 text-slate-400">
+            <h1 class="font-semibold text-lg mb-2 text-slate-200">COMPANY</h1>
+            <p>About</p>
+            <p>Contact</p>
+            <p>Send Quote</p>
+            <p>Privacy</p>
+            <p>Term of Service</p>
+            <p>Jobs</p>
+        </div>
+        <div class="mt-8 md:mt-0 flex flex-col gap-2 text-slate-400">
+            <h1 class="font-semibold text-lg mb-2 text-slate-200">RESOURCES</h1>
+            <p>Support</p>
+            <p>Documentation</p>
+            <p>License</p>
+            <p>Sitemap</p>
+        </div>
+    </section>
+    
+
+    <script>
+        let navMobile = document.querySelector('.nav-mobile');
+        let menuBar = document.querySelector('.menu-bar');
+        let closeBtn = document.querySelector('.close-btn');
+        menuBar.addEventListener('click', function(){
+            navMobile.style.display = 'block';
+        });
+
+        closeBtn.addEventListener('click', function(){
+            navMobile.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
